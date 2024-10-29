@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right, #fff7c8 0%, #fa709a 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #f3fffe;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 45rem;
+  height: 30rem;
+  box-shadow: 0.5px 0.5px 1px 1px rgb(255, 255, 223);
+}
+
+.card-image {
+  background: url("https://images.unsplash.com/photo-1566679056462-2075774c8c07?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW5zfGVufDB8fDB8fHww");
+  background-position: center;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 10px;
+  margin: 4px;
+  width: 20rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+.error {
+  font-family: sans-serif;
+  color: red;
+}
+.submit-btn {
+  width: 80%;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: transparent;
+  background: rgb(255, 90, 123);
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-weight: bolder;
+}
